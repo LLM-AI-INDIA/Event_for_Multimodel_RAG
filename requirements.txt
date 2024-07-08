@@ -1,0 +1,8 @@
+audio_recorder_streamlit==0.0.8
+langchain_community==0.2.6
+langchain_openai==0.1.10
+openai==1.35.6
+Pillow==9.5.0
+streamlit==1.22.0
+streamlit_chat==0.1.1
+pymysql
