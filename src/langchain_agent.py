@@ -9,7 +9,7 @@ from langchain_community.agent_toolkits import create_sql_agent
 from langchain_openai import ChatOpenAI
 
 def Sql_agent(vAR_question):
-    db = SQLDatabase.from_uri("mysql+pymysql://root:12345@35.188.163.239/otis_demo")
+    db = SQLDatabase.from_uri("mysql+pymysql://root:SQLsql$123@34.44.69.178/otis_demo")
     llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
     agent_executor = create_sql_agent(llm, db=db, agent_type="openai-tools", verbose=True)
     text=agent_executor.invoke(vAR_question)
