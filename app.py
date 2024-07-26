@@ -11,13 +11,13 @@ with open('style/final.css') as f:
     
 st.markdown("<p style='text-align: center; color: black;margin-top: -10px ;font-size:40px;'><span style='font-weight: bold'>Generative AI-powered Conversational Q&A Platform </span></p>", unsafe_allow_html=True)
 # Adding company logo
-imcol1, imcol2, imcol3= st.columns((4.5,4.5,3.5))
+imcol1, imcol2, imcol3= st.columns((3,3.5,3.5))
 
 # with imcol2:
 #     st.write("## ")
 #     st.image('image/deeplogo.png')
 with imcol2:
-    st.image('image/Otis_logo.jpg')   
+    st.image('image/default_logo.png')   
 
 # st.markdown("<p style='text-align: center; color: black; font-size:25px; margin-top: -30px'><span style='font-weight: bold'></span>Interact with our RAG bot powered by LLM with text, image, and voice </p>", unsafe_allow_html=True)
 st.write("")
