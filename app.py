@@ -11,7 +11,7 @@ with open('style/final.css') as f:
     
 st.markdown("<p style='text-align: center; color: black;margin-top: -10px ;font-size:40px;'><span style='font-weight: bold'>Generative AI-powered Conversational Q&A Platform </span></p>", unsafe_allow_html=True)
 # Adding company logo
-imcol1, imcol2, imcol3= st.columns((3,3.5,3.5))
+imcol1, imcol2, imcol3= st.columns((4,3.5,4.5))
 
 # with imcol2:
 #     st.write("## ")
